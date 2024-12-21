@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    background-color: beige;
+    margin: 0px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navElement {
+    padding: 5px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.activeNavElement {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button {
+    border: none;
+    background-color: beige;
+    font-size: 40px;
+    cursor: pointer;
+}
+

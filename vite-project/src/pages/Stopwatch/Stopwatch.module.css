@@ -1,0 +1,46 @@
+.container {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    flex-direction: column;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold
+}
+
+.button:first-child:hover {
+    background-color: lightgreen;
+}
+
+.button:last-child:hover {
+    background-color: lightcoral;
+}
+
+.time {
+    border: 1px solid black;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.results {
+    font-size: 20px;
+}
