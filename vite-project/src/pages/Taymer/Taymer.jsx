@@ -80,7 +80,7 @@ export default function Taymer() {
       </div>
       <div className={css.results}>
         <h3 className={css.header}>Keçmiş ölçmələr:</h3>
-        <ul>
+        <ul className = {css.list}>
           {results.map((time, index) => (
             <li key={index}>{time}</li>
           ))}

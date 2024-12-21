@@ -67,7 +67,7 @@ export default function Nav() {
         <NavLink className={({ isActive }) => 
           isActive ? `${css.navElement} ${css.activeNavElement}` : css.navElement
         } to = "/taymer">Taymer</NavLink>
-        <button onClick={handleButtonClick} className={css.button}>►</button>
+        <button onClick={handleButtonClick} className={css.button}>{ isTimerOn? "⏸️" : "▶️"}</button>
         {location.pathname === "/stopwatch" && (
           <button onClick={cycleButton} className={css.button}>⭘</button>
         )}

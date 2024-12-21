@@ -32,7 +32,7 @@ const initialState = {
       },
       decrement: (state, action) => {
         const { field } = action.payload;
-        if (state.hasOwnProperty(field)) {
+        if (state.hasOwnProperty(field) && state[field] > 0) {
           state[field] -= 1;
         }
       },

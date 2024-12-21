@@ -17,7 +17,7 @@ export default function Stopwatch() {
       <p className = {css.time}>{time} </p>
       <div className={css.results}>
         <h3 className={css.header}>Dövrlər:</h3>
-        <ul>
+        <ul className = {css.list}>
           {results.map((time, index) => (
             <li key={index}>{time}</li>
           ))}
